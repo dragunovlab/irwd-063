@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dragunovlab.github.io/nmvr/sitemap.xml
