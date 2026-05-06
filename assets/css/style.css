@@ -37,6 +37,7 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -48,6 +49,8 @@ body {
     linear-gradient(180deg, var(--bg) 0%, var(--bg-soft) 100%);
   color: var(--white);
   line-height: 1.55;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 [data-theme="light"] body {
@@ -61,11 +64,16 @@ body {
 img {
   max-width: 100%;
   display: block;
+  height: auto;
 }
 
 a {
   color: var(--white);
   text-decoration: none;
+}
+
+a[href^="tel:"] {
+  white-space: nowrap;
 }
 
 button,
@@ -369,6 +377,7 @@ textarea {
 
 .hero {
   padding: 34px 0 26px;
+  content-visibility: visible;
 }
 
 .hero-shell {
@@ -574,6 +583,8 @@ textarea {
 
 .section {
   padding: 28px 0;
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 960px;
 }
 
 .section h2 {
@@ -985,6 +996,7 @@ textarea {
 
 .page-hero {
   padding: 34px 0 10px;
+  content-visibility: visible;
 }
 
 .page-hero .panel {
@@ -1021,8 +1033,18 @@ textarea {
   font-size: 0.95rem;
 }
 
+.topbar-contact a,
+.footer-contacts a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+}
+
 .footer-contacts a:hover {
   color: var(--white);
+  text-decoration: underline;
+  text-decoration-color: var(--yellow);
+  text-underline-offset: 4px;
 }
 
 .desktop-only {

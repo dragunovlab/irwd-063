@@ -12,6 +12,7 @@
   <meta property="og:url" content="https://dragunovlab.github.io/irwd-063/">
   <meta property="og:image" content="https://dragunovlab.github.io/irwd-063/assets/irwd-063-hero-banner.png">
   <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" as="image" href="./assets/irwd-063-hero-banner.avif" type="image/avif">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
@@ -91,7 +92,10 @@
         </div>
         <div class="hero-visual">
           <div class="hero-note">Цены от 128 000 ₸</div>
-          <img src="./assets/irwd-063-hero-banner.png" alt="Червячный редуктор IRWD 063 Fortune PROM" loading="lazy">
+          <picture>
+            <source srcset="./assets/irwd-063-hero-banner.avif" type="image/avif">
+            <img src="./assets/irwd-063-hero-banner.png" alt="Червячный редуктор IRWD 063 Fortune PROM" width="1088" height="1445" loading="eager" fetchpriority="high" decoding="async">
+          </picture>
         </div>
       </div>
     </div>
