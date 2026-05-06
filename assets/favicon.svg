@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Fortune PROM favicon">
+  <defs>
+    <linearGradient id="gold" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffdb2f"/>
+      <stop offset="100%" stop-color="#d9a900"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#050505"/>
+  <path d="M11 10h41v13H24v8h20v12H24v11H11z" fill="url(#gold)"/>
+  <path d="M24 23h28v8H24z" fill="#050505"/>
+  <path d="M24 43h20v12H24z" fill="#050505"/>
+</svg>
