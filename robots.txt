@@ -1,4 +1,4 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 
-Sitemap: https://dragunovlab.github.io/nmvr/sitemap.xml
+Sitemap: https://dragunovlab.github.io/irwd-063/sitemap.xml

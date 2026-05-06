@@ -56,7 +56,7 @@
 
   document.querySelectorAll("[data-wa-link]").forEach(function (link) {
     link.addEventListener("click", function () {
-      const phone = link.getAttribute("data-phone") || "77787887716";
+      const phone = link.getAttribute("data-phone") || "77717428804";
       const context = document.querySelector(link.getAttribute("data-source")) || document;
       const data = {
         model: context.querySelector("[name='model']")?.value || link.getAttribute("data-model") || "IRWD 063",
@@ -117,7 +117,7 @@
 
       const wa = form.querySelector("[data-wa-link]");
       if (wa) {
-        const phone = wa.getAttribute("data-phone") || "77787887716";
+        const phone = wa.getAttribute("data-phone") || "77717428804";
         const data = {
           model: form.querySelector("[name='model']")?.value || wa.getAttribute("data-model") || "IRWD 063",
           power: form.querySelector("[name='power']")?.value || "",
